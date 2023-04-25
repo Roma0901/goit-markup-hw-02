@@ -38,7 +38,9 @@ body {
 .link {
   text-decoration: none;
 }
-
+.menu-link {
+  color: #2e2f42;
+}
 .link:hover,
 .addres-link:hover {
   color: #404bbf;
