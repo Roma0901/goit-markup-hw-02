@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -7,7 +7,7 @@ body {
 /* Logo */
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -20,7 +20,7 @@ body {
   color: #4d5ae5;
 }
 .logo-secondary {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -40,34 +40,30 @@ body {
 }
 .link {
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #2e2f42;
 }
 
-.link:hover {
+.link:hover,
+.addres-link:hover {
   color: #404bbf;
 }
-.link:focus {
+.link:focus,
+.addres-link:focus {
   color: #404bbf;
 }
 /* addres */
 .addres-link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.addres-link:hover {
-  color: #404bbf;
-}
-.addres-link:focus {
-  color: #404bbf;
 }
