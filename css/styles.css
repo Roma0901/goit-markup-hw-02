@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto" sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 /* Logo */
 
 .logo {
@@ -5,7 +11,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -13,37 +19,39 @@
   text-decoration: none;
   color: #4d5ae5;
 }
-.secondary-logo {
+.logo-secondary {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
-  text-decoration: none;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
+.list {
+  text-decoration: none;
+}
 /* navigation */
+.list {
+  list-style: none;
+}
 .link {
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  text-decoration: none;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navigation-link:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
   color: #404bbf;
 }
 /* addres */
@@ -58,11 +66,8 @@
   color: #434455;
 }
 .addres-link:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.addres-link:focus {
   color: #404bbf;
 }
