@@ -1,9 +1,28 @@
+:root {
+  --accent-color: #404bbf;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.menu-link {
+  color: #2e2f42;
+}
+.menu-link:hover,
+.addres-link:hover {
+  color: var(--accent-color);
+}
+.menu-link:focus,
+.addres-link:focus {
+  color: var(--accent-color);
+}
 /* LOGO */
 
 .logo {
@@ -19,12 +38,11 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
-.logo-secondary {
+.logo-second-part {
   color: #2e2f42;
 }
 /* NAVIGATION */
 .list-item {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -32,29 +50,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-.menu-link {
-  color: #2e2f42;
-}
-.link:hover,
-.addres-link:hover {
-  color: #404bbf;
-}
-.link:focus,
-.addres-link:focus {
-  color: #404bbf;
-}
 /* ADDRES */
 .addres-list {
   font-style: normal;
 }
 .addres-link {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -68,7 +68,6 @@ body {
   background-color: #2e2f42;
 }
 .title {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -78,7 +77,6 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -92,11 +90,10 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
 }
 /* FEATURES */
 .description-title {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -105,17 +102,14 @@ body {
   color: #2e2f42;
 }
 .description {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* WHAT ARE WE DOING */
 .subtitle {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -133,7 +127,6 @@ body {
   background-color: #ffffff;
 }
 .name-teammate {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -143,21 +136,18 @@ body {
   color: #2e2f42;
 }
 .place {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
 }
 .footer-text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -165,6 +155,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.logo-footer {
+.logo-second-part-white {
   color: #f4f4fd;
 }
+/* ---------------------------------------------PORTFOLIO --------------------------------------------- */
