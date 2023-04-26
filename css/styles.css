@@ -178,6 +178,6 @@ button {
 }
 .button-body:hover,
 .button-body:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
