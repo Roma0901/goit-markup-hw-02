@@ -31,7 +31,6 @@ button {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -47,7 +46,6 @@ button {
 }
 /* NAVIGATION */
 .menu-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -59,7 +57,6 @@ button {
   font-style: normal;
 }
 .addres-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
@@ -72,7 +69,6 @@ button {
   background-color: #2e2f42;
 }
 .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -81,7 +77,6 @@ button {
   color: #ffffff;
 }
 .hero-btn {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -98,7 +93,6 @@ button {
 }
 /* FEATURES */
 .description-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -106,7 +100,6 @@ button {
   color: #2e2f42;
 }
 .description {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -114,7 +107,6 @@ button {
 }
 /* WHAT ARE WE DOING */
 .subtitle {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -131,7 +123,6 @@ button {
   background-color: #ffffff;
 }
 .name-teammate {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -140,7 +131,6 @@ button {
   color: #2e2f42;
 }
 .place {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -152,7 +142,6 @@ button {
   background-color: #2e2f42;
 }
 .footer-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -163,10 +152,9 @@ button {
   color: #f4f4fd;
 }
 /* ---------------------------------------------PORTFOLIO --------------------------------------------- */
-
+/* BUTTONS */
 .button-body {
   background-color: #f4f4fd;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -180,4 +168,19 @@ button {
 .button-body:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+/* PICTURES */
+.pic-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.pic-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
