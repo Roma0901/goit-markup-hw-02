@@ -160,3 +160,17 @@ body {
   color: #f4f4fd;
 }
 /* ---------------------------------------------PORTFOLIO --------------------------------------------- */
+
+.button-body {
+  background-color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
